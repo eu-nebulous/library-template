@@ -16,18 +16,18 @@
           repo_shortname: TODO
           repo_description: TODO
 
-- job:
-    name: nebulous-library-template-upload-java-libraries
-    parent: nebulous-upload-java-libraries
-    provides:
-      - nebulous-library-template-java-libraries
-    description: Build and upload the java libraries.
-    files: *library_files
-    vars: *library_vars
+# - job:
+#     name: nebulous-library-template-upload-java-libraries
+#     parent: nebulous-upload-java-libraries
+#     provides:
+#       - nebulous-library-template-java-libraries
+#     description: Build and upload the java libraries.
+#     files: *library_files
+#     vars: *library_vars
 
-- job:
-    name: nebulous-library-template-promote-java-libraries
-    parent: nebulous-promote-java-libraries
-    description: Promote previously uploaded java libraries.
-    files: *library_files
-    vars: *library_vars
+# - job:
+#     name: nebulous-library-template-promote-java-libraries
+#     parent: nebulous-promote-java-libraries
+#     description: Promote previously uploaded java libraries.
+#     files: *library_files
+#     vars: *library_vars
