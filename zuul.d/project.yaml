@@ -5,8 +5,8 @@
         - nox-linters
     gate:
       jobs:
-        # - nebulous-library-template-upload-java-libraries
+        - nebulous-library-template-upload-java-libraries
         - nox-linters
-    # promote:
-    #   jobs:
-    #     - nebulous-library-template-promote-java-libraries
+    promote:
+      jobs:
+        - nebulous-library-template-promote-java-libraries
