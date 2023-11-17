@@ -68,9 +68,4 @@
         </plugins>
     </build>
 
-    <scm>
-        <connection>scm:git:https://opendev.org/nebulous/library-template.git</connection>
-	<developerConnection>scm:git:git@opendev.org:29418/nebulous/library-template.git</developerConnection>
-        <url>https://opendev.org/nebulous/library-template</url>
-    </scm>
 </project>
